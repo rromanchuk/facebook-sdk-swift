@@ -24,9 +24,9 @@ extension UserProfile {
    */
   public enum FetchResult {
     /// Profile was succesfully fetched.
-    case Success(UserProfile)
+    case success(UserProfile)
     /// Profile fetch failed.
-    case Failed(ErrorType)
+    case failed(Error)
   }
 }
 
